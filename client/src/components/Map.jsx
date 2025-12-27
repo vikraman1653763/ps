@@ -2,10 +2,10 @@ import React from "react";
 
 const VenueSection = () => {
   return (
-    <section className="py-16 px-4 bg-white">
+    <section className="py-16 px-4 bg-transparent">
       <div className="max-w-6xl mx-auto text-center">
         {/* Heading */}
-        <h2 className="text-3xl sm:text-4xl font-bold mb-3">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-3 font-dance">
           Wedding Venue
         </h2>
 

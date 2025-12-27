@@ -51,7 +51,7 @@ shadow-[0_6px_24px_rgba(2,6,23,0.06)]
 ${isSmall && menuOpen ? "rounded-b-none" : ""}
 `
     : `
-sm:translate-y-0 px-7 sm:px-10 py-4 max-w-full w-full
+sm:translate-y-0 px-7 sm:px-10 py-2 max-w-full w-full
 bg-white text-slate-800 border border-white/30
 shadow-[0_6px_24px_rgba(2,6,23,0.01)]
 `
@@ -71,9 +71,9 @@ shadow-[0_6px_24px_rgba(2,6,23,0.01)]
             <button
               key={label}
               onClick={() => scrollToSection(path)}
-              className={`text-base ${
+              className={`text-base  ${
                 scrolled ? "text-slate-700" : "text-[#525F81]"
-              } hover:text-primary transition-colors`}
+              } hover:text-primary transition-colors bg-transparent`}
             >
               {label}
             </button>

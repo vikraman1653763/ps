@@ -2,13 +2,13 @@ import React from "react";
 
 const WeddingCTA = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-rose-400 via-pink-400 to-red-400 py-16 px-6">
+    <section className="relative overflow-hidden bg-accent1 py-16 px-6">
       {/* Soft decorative lights */}
       <div className="absolute -top-24 -left-24 w-80 h-80 bg-white/25 rounded-full blur-3xl" />
       <div className="absolute -bottom-24 -right-24 w-80 h-80 bg-white/25 rounded-full blur-3xl" />
 
       <div className="relative max-w-4xl mx-auto text-center text-white">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 text-primary">
           We Can’t Wait to Celebrate With You 💖
         </h2>
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import VenueSection from '../components/VenueSection'
+import VenueSection from '../components/Map'
 import Info from '../components/Info'
 import FlipdownTimer from '../components/FlipdownTimer'
 import WeddingCTA from '../components/WeddingCTA'
