@@ -2,11 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900");
 
 @theme {
-  --color-primary: #C13D07;    /* Deep Orange-Red for titles/CTA */
-  --color-secondary: #71473B;  /* Brown for accents */
-  --color-accent1: #F59A5E;    /* Light Orange for highlights/buttons */
-  --color-accent2: #BEBF9C;    /* Sage Green for subtle backgrounds */
-  --color-bg: #FFEFCC;         /* Cream for page background */
+  --color-primary: #c13d07; /* Deep Orange-Red for titles/CTA */
+  --color-secondary: #71473b; /* Brown for accents */
+  --color-accent1: #f59a5e; /* Light Orange for highlights/buttons */
+  --color-accent2: #bebf9c; /* Sage Green for subtle backgrounds */
+  --color-bg: #ffefcc; /* Cream for page background */
 }
 
 .font-poppins {
@@ -15,25 +15,33 @@
 
 @layer base {
   body {
-    @apply font-poppins;
-    background-color: var(--color-bg);
+    font-family: "Poppins", system-ui, sans-serif;
+    background-color: white;
     color: #333333; /* default text color */
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: var(--color-primary);
   }
 
-  a, .accent {
+  a,
+  .accent {
     color: var(--color-secondary);
   }
 
-  button, .btn-primary {
+  button,
+  .btn-primary {
     background-color: var(--color-accent1);
     color: white;
   }
 
-  button:hover, .btn-primary:hover {
+  button:hover,
+  .btn-primary:hover {
     opacity: 0.9;
   }
 

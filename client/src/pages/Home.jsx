@@ -2,6 +2,7 @@ import React from 'react'
 import VenueSection from '../components/VenueSection'
 import Info from '../components/Info'
 import FlipdownTimer from '../components/FlipdownTimer'
+import WeddingCTA from '../components/WeddingCTA'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <FlipdownTimer/>
       <VenueSection/>
       <Info/>
+      <WeddingCTA/>
     </div>
   )
 }
